@@ -80,3 +80,13 @@ section{
     margin-bottom: 2rem;
 }
 
+@media (min-width:455px) {
+    .img{
+        min-height: 300px;
+        background:url(./images/image-header-mobile.jpg) no-repeat;
+        background-size: cover;
+        border-radius: 0.5rem 0.5rem 0 0;
+        position: relative;
+        overflow: hidden;
+    }
+}
