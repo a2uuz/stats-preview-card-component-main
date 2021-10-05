@@ -90,3 +90,14 @@ section{
         overflow: hidden;
     }
 }
+@media (min-width:1040px) {
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.content{
+    width: 50%;
+    text-align: left;
+}
+}
